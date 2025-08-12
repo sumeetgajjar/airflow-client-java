@@ -1,0 +1,15 @@
+
+
+# ActionCollection
+
+A collection of actions.  *New in version 2.1.0* 
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**totalEntries** | **Integer** | Count of total objects in the current result set before pagination parameters (limit, offset) are applied.  |  [optional] |
+|**actions** | [**List&lt;Action&gt;**](Action.md) |  |  [optional] |
+
+
+
