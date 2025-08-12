@@ -1,7 +1,0 @@
-inputSpec: spec/v1.yaml
-
-generatorName: java
-
-outputDir: generated
-
-validateSpec: true
