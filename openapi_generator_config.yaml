@@ -1,0 +1,21 @@
+# The following properties are identified from:
+# https://github.com/OpenAPITools/openapi-generator/blob/v7.14.0/modules/openapi-generator-cli/src/main/java/org/openapitools/codegen/cmd/Generate.java
+
+inputSpec: spec/v1.yaml
+
+generatorName: java
+
+validateSpec: true
+
+additionalProperties:
+  artifactId: airflow-client-java
+
+openapiGeneratorIgnoreList:
+  - .travis.yml
+  - git_push.sh
+  - .gitlab-ci.yml
+  - build.sbt
+  - pom.xml
+  - .github/**
+  - .gitignore
+  - .openapi-generator-ignore

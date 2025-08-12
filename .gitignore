@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+
+# exclude jar for gradle wrapper
+!gradle/wrapper/*.jar
+
+**/target
+target
+.gradle
+build
